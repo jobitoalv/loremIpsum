@@ -22,6 +22,9 @@ function App() {
       />
       <button type="submit" className='btn'>generate</button>
     </form>
+    <article className='lorem-test'>
+      <p>11111</p>
+    </article>
   </section>
     )
 }
