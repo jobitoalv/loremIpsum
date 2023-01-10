@@ -24,7 +24,9 @@ function App() {
       <button type="submit" className='btn'>generate</button>
     </form>
     <article className='lorem-test'>
-      <p>11111</p>
+      {text.map((item,index)=>{
+        return <p key={index}>{item}</p>
+      })}
     </article>
   </section>
     )
